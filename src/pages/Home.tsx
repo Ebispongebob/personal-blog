@@ -11,7 +11,7 @@ export function Home() {
     <div className="space-y-10">
       {/* Hero */}
       <section className="text-center space-y-4 py-8">
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight">博客主题</h1>
+        <h1 className="text-3xl md:text-4xl font-bold tracking-tight">E'Blog</h1>
         <p className="text-muted-foreground max-w-lg mx-auto text-base md:text-lg">
           记录技术探索、分享开发心得，在代码的世界里不断前行。
         </p>
