@@ -12,7 +12,7 @@ export function About() {
         <div className="w-24 h-24 mx-auto rounded-full bg-primary/10 flex items-center justify-center">
           <BookOpen className="h-10 w-10 text-primary" />
         </div>
-        <h1 className="text-3xl font-bold tracking-tight">博客主题</h1>
+        <h1 className="text-3xl font-bold tracking-tight">E'Blog</h1>
         <p className="text-muted-foreground max-w-md mx-auto">
           一个热爱技术的开发者，专注于前端工程化与用户体验设计。
           在这里记录学习笔记、分享技术见解，与志同道合的朋友交流成长。

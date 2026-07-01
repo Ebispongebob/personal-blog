@@ -28,7 +28,7 @@ export function Layout({ children }: LayoutProps) {
         <div className="container mx-auto px-4 h-14 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 text-lg font-bold tracking-tight hover:opacity-80 transition-opacity">
             <BookOpen className="h-5 w-5" />
-            <span>博客主题</span>
+            <span>E'Blog</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -89,7 +89,7 @@ export function Layout({ children }: LayoutProps) {
       {/* Footer */}
       <footer className="border-t py-6 bg-muted/30">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p> 博客主题 · 用 React + Vite + Tailwind CSS 构建</p>
+          <p>E'Blog · 用 React + Vite + Tailwind CSS 构建</p>
         </div>
       </footer>
     </div>
