@@ -14,8 +14,8 @@ export function About() {
         </div>
         <h1 className="text-3xl font-bold tracking-tight">E'Blog</h1>
         <p className="text-muted-foreground max-w-md mx-auto">
-          一个热爱技术的开发者，专注于前端工程化与用户体验设计。
-          在这里记录学习笔记、分享技术见解，与志同道合的朋友交流成长。
+          大数据开发工程师，专注于实时数据管线、流式计算与数据基建。
+          在这里记录技术踩坑、架构复盘，与志同道合的朋友交流成长。
         </p>
         <div className="flex justify-center gap-3">
           <a
@@ -48,7 +48,7 @@ export function About() {
       <section className="space-y-4">
         <h2 className="text-xl font-semibold">技术栈</h2>
         <div className="flex flex-wrap gap-2">
-          {['React', 'TypeScript', 'Vue.js', 'Node.js', 'Tailwind CSS', 'Vite', 'Next.js', 'PostgreSQL', 'Docker', 'Git'].map(
+          {['Java', 'Flink', 'Kafka', 'Redis', 'ClickHouse', 'Hadoop', 'Hive', 'Spark', 'Python', 'Shell', 'Docker', 'Git'].map(
             (skill) => (
               <Badge key={skill} variant="secondary" className="px-3 py-1 text-sm">
                 {skill}

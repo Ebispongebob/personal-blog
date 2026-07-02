@@ -1,6 +1,6 @@
 ---
 title: 归因程序状态读写放大问题
-date: 2026-07-02
+date: 2026-05-22
 tags: [Redis, 归因系统, 性能优化, BigKey]
 excerpt: 线上一个 Redis key 涨到 100MB，从读写放大、BigKey 治理到结构改造的完整复盘。
 ---
