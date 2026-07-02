@@ -80,13 +80,13 @@ export function ArticleDetail() {
                 <p className="leading-relaxed mb-4 text-foreground/90">{children}</p>
               ),
               ul: ({ children }) => (
-                <ul className="list-disc list-inside mb-4 space-y-1 ml-2">{children}</ul>
+                <ul className="list-disc pl-6 mb-4 space-y-1">{children}</ul>
               ),
               ol: ({ children }) => (
-                <ol className="list-decimal list-inside mb-4 space-y-1 ml-2">{children}</ol>
+                <ol className="list-decimal pl-6 mb-4 space-y-1">{children}</ol>
               ),
               li: ({ children }) => (
-                <li className="text-foreground/90">{children}</li>
+                <li className="text-foreground/90 leading-relaxed pl-1">{children}</li>
               ),
               code: ({ className, children }) => {
                 const isInline = !className;
