@@ -1,1 +1,2 @@
-https://ebispongebob.github.io/personal-blog/
+# E'Blog
+Personal Blog
