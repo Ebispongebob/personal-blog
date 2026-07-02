@@ -48,7 +48,7 @@ export function About() {
       <section className="space-y-4">
         <h2 className="text-xl font-semibold">技术栈</h2>
         <div className="flex flex-wrap gap-2">
-          {['Java', 'Flink', 'Kafka', 'Redis', 'ClickHouse', 'Hadoop', 'Hive', 'Spark', 'Python', 'Shell', 'Docker', 'Git'].map(
+          {['Java', 'Go', 'Python', 'Flink', 'Kafka', 'Pulsar', 'ClickHouse', 'Doris', 'Iceberg', 'Redis', 'MySQL', 'PostgreSQL', 'Spring', 'SpringBoot', 'MyBatis', 'Kubernetes', 'Helm', 'Docker', 'GitLab CI', 'Linux', 'Claude Code'].map(
             (skill) => (
               <Badge key={skill} variant="secondary" className="px-3 py-1 text-sm">
                 {skill}
