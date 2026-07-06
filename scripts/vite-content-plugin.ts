@@ -60,7 +60,7 @@ export function contentPlugin(): Plugin {
             slug: generateSlug(file),
             excerpt: fm.excerpt,
             content: content.trim(),
-            date: fm.date,
+            date: new Date(fm.date).toISOString().split('T')[0],
             tags: fm.tags,
             readingTime: calculateReadingTime(content),
           };
